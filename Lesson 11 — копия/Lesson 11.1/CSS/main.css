@@ -1,0 +1,98 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: 0.4s;
+}
+.wrapper{
+    width: 700px;
+    margin: 20px auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+.switch{
+    margin: 2rem;
+}
+.switch label{
+    border: 4px solid gray;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+}
+input{
+    display: none;
+}
+.switch2{
+    margin: 2rem;
+}
+.switch2 label{
+    border: 4px solid gray;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: white;
+}
+.switch2:hover label {
+    background-color: gray;
+    border-radius: 10px;
+}
+.span1{
+    display: inline-block;
+    width: 20px;
+    height: 58px;
+    background-color: white;
+    border-radius: 10px;
+    transform: rotate(-44deg);
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.span2{
+    width: 20px;
+    height: 100px;
+    background-color: white;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 18px;
+    transform: rotate(40deg);
+    border-radius: 10px;
+}
+.switch3{
+    margin: 2rem;
+}
+.switch3 label{
+    border: 4px solid gray;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: white;
+}
+.span3{
+    display: inline-block;
+    width: 20px;
+    height: 58px;
+    border-radius: 10px;
+    background-color: white;
+    border-radius: 10px;
+    transform: rotate(-44deg);
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.span4{
+    width: 20px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: white;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 18px;
+    transform: rotate(40deg);
+    border-radius: 10px;
+}
+input[type='checkbox']:checked + label{
+    background-color: rgb(81, 81, 255);
+    border-color: rgb(81, 81, 255);
+}

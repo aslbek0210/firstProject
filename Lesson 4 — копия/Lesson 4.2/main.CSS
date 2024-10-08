@@ -1,0 +1,15 @@
+.box{
+    border: 1px solid #ccc;
+    width: 500px;
+    margin: 15px auto;
+    padding: 15px;
+}
+.box img{
+    width: 100%;
+}
+.box h4, p, a{
+    font-family: sans-serif;
+}
+.box a{
+    margin-left: 450px;
+}

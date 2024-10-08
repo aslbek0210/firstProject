@@ -1,0 +1,55 @@
+.box{
+    border: 1px solid #ccc;
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    background-size: 100%;
+    background-image: linear-gradient(transparent, transparent, rgb(75, 75, 157)), url(./product-3.png);
+    font-family: sans-serif;
+}
+.box h4{
+    margin-top: 310px;
+    margin-left: 300px;
+    color: white;
+}
+.box p{
+    margin-left: 510px;
+    color: white;
+}
+.box2{
+    border: 1px solid #ccc;
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    background-size: 100%;
+    background-image: linear-gradient(transparent, transparent, rgb(75, 75, 157)), url(./product-4.png);
+    font-family: sans-serif;
+}
+.box2 h4{
+    margin-top: 310px;
+    margin-left: 300px;
+    color: white;
+}
+.box2 p{
+    margin-left: 510px;
+    color: white;
+}
+.box3{
+    border: 1px solid #ccc;
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    background-size: 100%;
+    background-image: linear-gradient(transparent, transparent, rgb(75, 75, 157)), url(./product-5.png);
+    font-family: sans-serif;
+}
+
+.box3 p{
+    margin-left: 510px;
+    color: white;
+}
+.box3 h4{
+    margin-top: 310px;
+    margin-left: 300px;
+    color: white;
+}

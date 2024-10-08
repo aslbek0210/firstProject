@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 1000px;
+    margin: 70px auto;
+}
+.box{
+    background-color: indigo;
+    display: inline-block;
+    padding: 1rem 2rem;
+    color: white;
+    font-size: 25px;
+    transition: all 0.4s linear;
+    /* animation-name: anime;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear; */
+    animation: anime2 5s linear infinite;
+}
+.box:hover{
+    /* transform: translate(50px, 50px); */
+    /* transform: translateX(100px); */
+    /* transform: rotate(180deg); */
+    /* transform: rotateX(180deg); */
+    /* transform: scale(2) scaleX(2) scaleY(0.5); */
+    /* transform: skew(-40deg) skewX(-40deg) skewY(-40deg); */
+    /* transform: translate(50px, 50px) rotate(180deg) scale(2) skew(40deg); */
+}
+@keyframes anime{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(800px);
+    }
+}
+@keyframes anime2{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(800px);
+    }
+    50%{
+        transform: translateX(800px) translateY(400px);
+    }
+    75%{
+        transform: translateY(400px) translateX(0);
+    }
+    100%{
+        transform: translateY(0)
+    }
+}

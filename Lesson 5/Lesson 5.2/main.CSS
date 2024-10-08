@@ -1,0 +1,22 @@
+.box{
+    width: 700px;
+    margin: 200px auto;
+    text-align: center;
+}
+.box h1{
+    font-size: 45px;
+    font-family: sans-serif;
+    line-height: 65px;
+    color: white;
+}
+.box button{
+    margin-top: 55px;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 1px solid;
+    color: white;
+}
+body{
+    background-image: url(./photo_2023-05-02_12-07-40.jpg);
+    background-size: 100%;
+}

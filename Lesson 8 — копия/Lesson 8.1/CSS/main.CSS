@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 1200px;
+    margin: 300px auto;
+    padding: 1rem 1.5rem;
+    text-align: center;
+}
+button{
+    padding: 20px 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(62, 62, 181);
+    color: #fff;
+    letter-spacing: 1.5px;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+button:hover{
+    border-radius: 25px;
+    color: #fff;
+}
+button:active{
+    background-color: rgb(34, 197, 107);
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 1000px;
+    padding: 20px;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left, .right{
+    border: 1px solid #ccc;
+    width: 50%;
+    padding: 15px;
+}
+.left img{
+    width: 100%;
+}
+.flex{
+    display: flex;
+    align-items: start;
+    color: #ccc;
+}
+.flex img{
+    width: 15px;
+    margin-right: 10px;
+}
+.right h2{
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+.flex2{
+    margin-top: 100px;
+}
+.flex2 img{
+    width: 20px;
+    margin-right: 30px;
+}
+.img{
+    margin-left: 230px;
+}
+.wrapper p{
+    color: #ccc;
+}

@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: rgb(39, 39, 99);
+}
+
+body {
+    background-color: #EEF2F5;
+}
+
+.wrapper {
+    width: 1200px;
+    padding: 1rem;
+    margin: 50px auto;
+    display: flex;
+}
+
+.left,
+.right {
+    width: 50%;
+    padding: 1rem;
+    height: 500px;
+}
+
+.left h1 {
+    font-size: 30px;
+    margin-right: 70px;
+    margin-bottom: 1rem;
+    margin-top: 50px;
+}
+
+.left p {
+    margin-right: 170px;
+    margin-bottom: 1rem;
+}
+
+.left button {
+    padding: 10px 40px;
+    background-color: rgb(104, 217, 180);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right .round {
+    border: 3px solid #f2f6fa;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #bfc0c1;
+    position: relative;
+}
+
+.round img {
+    width: 75px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.right .round2 {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e3e5e5;
+}
+
+.right .round3 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0 0 10px 3px #ccc;
+}
+
+.round3 img {
+    width: 75px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.round3 img:nth-child(1) {
+    position: absolute;
+    top: -30px;
+    right: 40px;
+}
+
+.round3 img:nth-child(2) {
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+}
+
+.round3 img:nth-child(3) {
+    position: absolute;
+    bottom: 40px;
+    left: -20px;
+}
+
+.round > img:nth-child(2) {
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.round > img:nth-child(3) {
+    position: absolute;
+    top: 30px;
+    left: -15px;
+}
+
+.round > img:nth-child(4) {
+    position: absolute;
+    bottom: 70px;
+    right: -25px;
+}
+
+.round > img:nth-child(5) {
+    position: absolute;
+    bottom: -15px;
+    left: 50px;
+} 

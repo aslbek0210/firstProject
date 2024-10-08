@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 1200px;
+    margin: 50px auto;
+}
+.box{
+    background-color: indigo;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.menu{
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    padding: 1rem 8rem;
+    list-style: none;
+    justify-content: space-between;
+    background-color: indigo;
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.menu li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+}
+.book{
+    border: 1px sp;
+    width: 300px;
+    height: 400px;
+    margin-top: 140px;
+    background-color: indigo;
+    color: white;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+.sales{
+    background-color: red;
+    padding: 0.5rem 3rem;
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 23px;
+    right: -37px;
+    transform: rotate(45deg);
+}
+.kub{
+    border: 1px solid;
+    width: 400px;
+    height: 400px;
+    background-color: rebeccapurple;
+    margin: 50px auto;
+    position: relative;
+}
+.kub span{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color: red;
+}
+.span1{
+    position: absolute;
+    bottom: -60px;
+    right: -60px;
+}
+.span2{
+    position: absolute;
+    bottom: -60px;
+    left: -60px;
+}
+.span3{
+    position: absolute;
+    top: -60px;
+    right: -60px;
+}
+.span4{
+    position: absolute;
+    top: -60px;
+    left: -60px;
+}

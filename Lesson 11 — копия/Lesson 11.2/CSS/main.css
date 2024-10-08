@@ -1,0 +1,93 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+.wrapper{
+    width: 1200px;
+    margin: 200px auto;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    background-color: #ccc;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: none;
+    background-color: white;
+    position: relative;
+    cursor: pointer;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0 0 40px 5px #909090;
+}
+.box img{
+    width: 40%;
+    z-index: 1;
+}
+.box img:nth-child(2){
+    display: none;
+}
+.back{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: -200px;
+    bottom: -200px;
+    font-size: 16px;
+    color: white;
+    transform: rotate(45deg) scale(1.5);
+}
+.box:hover .back{
+    bottom: 55px;
+    left: 55px;
+}
+.box:hover img:nth-child(1){
+    display: none;
+}
+.box:hover img:nth-child(2){
+    display: block;
+    transform: scale(1.1);
+    animation: animation 0.4s ;
+}
+.item{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.box:hover .back .item{
+    bottom: -55px;
+    left: -50px;
+    transition-delay: 0.3s;
+}
+.blue{
+    background-color: #3D5B99;
+}
+.aqua{
+    background-color: #35CCFF;
+}
+.red{
+    background-color: #DC4C3A;
+}
+.pink{
+    background-color: #F26899;
+}
+.scype{
+    background-color: #02B0F0;
+}
+@keyframes animation{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}

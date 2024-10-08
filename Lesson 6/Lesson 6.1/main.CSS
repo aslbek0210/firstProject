@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 800px;
+    height: 500px;
+    padding: 10px;
+    border: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    border: 1px solid;
+    border-color: grey;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    padding: 10px;
+}
+.box p{
+    color: grey;
+}
+.box img{
+    width: 50%;
+}

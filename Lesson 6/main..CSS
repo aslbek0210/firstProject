@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.wrapper{
+    width: 1300px;
+    margin: 0px auto;
+    height: 600px;
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    width: 350px;
+    border: 1px solid;
+    padding: 10px;
+    margin-top: 10px;
+    height: 250px;
+}

@@ -1,0 +1,45 @@
+.box{
+    border: 1px solid;
+    width: 600px;
+    height: 400px;
+    background-color: orange;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box h2{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    word-spacing: 20px;
+    letter-spacing: 3px;
+}
+
+.box p{
+    color: green;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: justify;
+    text-transform: capitalize;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    line-height: 25px;
+    margin-bottom: 65px;
+}
+
+.box a{
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: white;
+    border: 1px solid;
+    margin-left: 450px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: blueviolet;
+}

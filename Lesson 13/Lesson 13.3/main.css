@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 20px auto;
+  padding: 0.5rem;
+}
+.wrapper .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+.wrapper .top button {
+  padding: 0.4rem 1rem;
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.wrapper .block {
+  padding: 0.5rem;
+  display: flex;
+}
+.wrapper .block .left {
+  width: 50%;
+  padding: 1rem;
+}
+.wrapper .block .left .box1 {
+  background-color: white;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 3px 5px #ccc;
+}
+.wrapper .block .left .box1 > img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.wrapper .block .left .box1 img:nth-child(2) {
+  position: absolute;
+  width: 100px;
+  left: 235px;
+  top: 142px;
+}
+.wrapper .block .left .box1 .live {
+  width: 100px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.wrapper .block .left .box1 .live span {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+.wrapper .block .left .box1 h2 {
+  margin: 1rem;
+}
+.wrapper .block .left .box1 h3 {
+  margin: 1rem;
+  font-weight: 400;
+  font-size: 25px;
+}
+.wrapper .block .left .box1 .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+.wrapper .block .left .box1 .flex p {
+  color: grey;
+  width: 60%;
+}
+.wrapper .block .left .box1 .flex a {
+  background-color: grey;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 1rem;
+}
+.wrapper .block .left .box1 .flex a img {
+  width: 15px;
+}
+.wrapper .block .right {
+  width: 50%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.wrapper .block .right .box2 {
+  width: 49%;
+  background-color: white;
+  margin-bottom: 1rem;
+  border-radius: 7px;
+  position: relative;
+  box-shadow: 0 3px 5px #ccc;
+}
+.wrapper .block .right .box2 > img {
+  width: 100%;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.wrapper .block .right .box2 > img:nth-child(2) {
+  position: absolute;
+  width: 75px;
+  top: 15%;
+  left: 40%;
+}
+.wrapper .block .right .box2 .anons {
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.7rem;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.wrapper .block .right .box2 h4 {
+  padding: 1rem;
+  font-size: 14px;
+}
+.wrapper .block .right .box2 .flex {
+  margin: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+.wrapper .block .right .box2 .flex img {
+  margin: 10px;
+}
+.wrapper .block .right .box2 .flex img:nth-child(3) {
+  margin-left: 3rem;
+}/*# sourceMappingURL=main.css.map */

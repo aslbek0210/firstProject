@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+%footer {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    border-top: 3px solid #ccc;
+
+    a {
+        color: rgb(80, 213, 213);
+        text-decoration: none;
+        margin-right: 1rem;
+    }
+
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 20px auto;
+    display: flex;
+
+    .left,
+    .right {
+        width: 50%;
+        padding: 1rem;
+
+        .card1 {
+            width: 100%;
+            border-radius: 5px;
+            background-color: #fff;
+
+            .cardHeader {
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                background-color: green;
+                color: white;
+                height: 200px;
+                padding-top: 150px;
+                padding-left: 1rem;
+            }
+
+            .cardBody {
+                padding: 2rem 1rem;
+            }
+
+            .cardFooter {
+                @extend %footer;
+            }
+        }
+
+        .card2 {
+            width: 100%;
+            border-radius: 5px;
+            margin-top: 1rem;
+            display: flex;
+
+            .left {
+                width: 25%;
+                background-color: #ccc;
+                height: 200px;
+                display: flex;
+            }
+
+            .right {
+                background-color: white;
+                width: 75%;
+                height: 200px;
+
+                .rightHeader {
+                    height: 120px;
+
+                    p {
+                        color: grey;
+                    }
+                }
+
+                .rightFooter {
+                    width: 110%;
+                    margin-left: -6%;
+                    @extend %footer;
+                }
+            }
+        }
+
+        .card3 {
+            width: 100%;
+            padding: 1rem;
+            margin-top: 1rem;
+            background-color: #fff;
+            border-radius: 5px;
+
+            .Header {
+                height: 200px;
+
+                h2 {
+                    color: rgb(80, 213, 213);
+                    margin-bottom: 2rem;
+                }
+
+                p {
+                    font-size: 17px;
+                    padding-right: 220px;
+                }
+            }
+
+            .Footer {
+                width: 106%;
+                margin-left: -3%;
+                @extend %footer
+            }
+        }
+
+        .card4 {
+            width: 100%;
+
+            .header {
+                height: 200px;
+                color: white;
+                padding-top: 160px;
+                padding-left: 1rem;
+                background-color: rgb(0, 92, 157);
+            }
+
+            .footer {
+                padding: 1rem;
+                display: flex;
+                justify-content: flex-end;
+                background-color: #fff;
+
+                i {
+                    font-size: 25px;
+                    margin-left: 1.5rem;
+                    color: gray;
+                }
+            }
+        }
+
+        .best {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+
+            .card5 {
+                width: 49%;
+                margin-top: 1rem;
+
+                .header {
+                    height: 200px;
+                    background-color: blue;
+                    color: white;
+                    padding-top: 160px;
+                    padding-left: 1rem;
+                }
+
+                .footer {
+                    padding: 1rem;
+                    display: flex;
+                    justify-content: space-around;
+                    background-color: #fff;
+
+                    i {
+                        font-size: 25px;
+                        color: gray;
+                    }
+                }
+            }
+
+            .card6 {
+                width: 49%;
+                margin-top: 1rem;
+
+                .header {
+                    height: 200px;
+                    background-color: green;
+                    color: white;
+                    padding-top: 160px;
+                    padding-left: 1rem;
+                }
+
+                .footer {
+                    padding: 1rem;
+                    display: flex;
+                    justify-content: space-around;
+                    background-color: #fff;
+
+                    i {
+                        font-size: 25px;
+                        color: gray;
+                    }
+                }
+            }
+        }
+
+        .card7 {
+            width: 49%;
+
+            .header {
+                height: 205px;
+                color: white;
+                padding-top: 120px;
+                padding-left: 1rem;
+                padding-right: 50px;
+                border-bottom: 2px solid #ccc;
+                background-color: blue;
+            }
+            .body {
+                padding: 1rem;
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: blue;
+                i {
+                    color: white;
+                    font-size: 25px;
+                }
+            }
+            .footer {
+                margin-top: 0.3rem;
+                background-color: gray;
+                padding: 1rem;
+                border-radius: 8px;
+                color: white;
+                font-weight:600;
+                font-size: 22px;
+            }
+        }
+
+        .card8 {
+            width: 49%;
+            border: 3px solid #909090;
+            background-color: rgba(0, 0, 0, 0.437);
+            .header{
+                height: 250px;
+                color: white;
+                padding: 1rem;
+                border-bottom: 3px solid #fff;
+                P{
+                    margin: 1rem 0;
+                }
+                .mb1rem{
+                    margin-bottom: 1rem;
+                }
+                input{
+                    transform: scale(2);
+                }
+                label{
+                    margin-left: 1rem;
+                }
+            }
+            .footer{
+                padding: 1rem;
+                display: flex;
+                justify-content: space-between;
+                color: white;
+                i{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}

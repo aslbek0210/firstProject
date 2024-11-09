@@ -1,0 +1,75 @@
+.wrapper {
+  width: 1200px;
+  padding: 1rem;
+  margin: 20px auto;
+}
+.wrapper .menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+  box-shadow: 0 0 10px 4px rgb(151, 255, 134);
+  background-color: rgb(16, 103, 16);
+}
+.wrapper .menu li a {
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  font-family: sans-serif;
+  padding: 0.6rem 1rem;
+  transition: 0.4s;
+}
+.wrapper .menu li a:hover {
+  background-color: white;
+  color: rgb(6, 16, 93);
+  border-radius: 50px;
+}
+.wrapper .buttons {
+  margin: 3rem 0;
+}
+.wrapper .buttons .btn-danger, .wrapper .buttons .btn-warning, .wrapper .buttons .btn-success {
+  padding: 0.75rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-right: 1rem;
+}
+.wrapper .buttons .btn-success {
+  background-color: rgb(23, 164, 23);
+}
+.wrapper .buttons .btn-warning {
+  background-color: rgb(250, 193, 21);
+}
+.wrapper .buttons .btn-danger {
+  background-color: rgb(209, 4, 4);
+}
+.wrapper .buttons .btn-lg {
+  font-size: 30px;
+  padding: 1rem 2rem;
+  transition: 0.4s;
+}
+.wrapper .buttons .btn-lg:hover {
+  box-shadow: 0 0 10px 4px rgb(23, 164, 23);
+}
+.wrapper .buttons .btn-md {
+  font-size: 20px;
+  padding: 0.8rem 1.8rem;
+  transition: 0.4s;
+}
+.wrapper .buttons .btn-md:hover {
+  box-shadow: 0 0 10px 4px rgb(250, 193, 21);
+}
+.wrapper .buttons .btn-sm {
+  font-size: 16px;
+  padding: 0.5rem 1rem;
+  transition: 0.4s;
+}
+.wrapper .buttons .btn-sm:hover {
+  box-shadow: 0 0 10px 4px rgb(209, 4, 4);
+}/*# sourceMappingURL=main.css.map */

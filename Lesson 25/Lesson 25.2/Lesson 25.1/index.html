@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 25.1 | JS</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
+    <style>
+        .flex{
+            border: none;
+            background-color: #fff;
+            margin-left: -50px;
+        }
+        .flex img:nth-child(2){
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 offset-3">
+                <div class="card card-body">
+                    <h1 class="text-center display-3">Log In</h1>
+                    <label for="">Email</label>
+                    <input type="email" class="form-control">
+                    <label for="">Password</label>
+                    <div class="d-flex">
+                        <input id="inp" type="text" class="form-control">
+                        <button class="flex" onclick="showHide()">
+                            <img id="show" src="./Photo/da.jpg" width="30px">
+                            <img id="hide" src="./Photo/hide.jpg" width="30px">
+                        </button>
+                    </div>
+                    <button class="btn btn-dark my-3">LOG IN</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

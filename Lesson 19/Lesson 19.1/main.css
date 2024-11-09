@@ -1,0 +1,78 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #ccc!important;
+}
+.box{
+    width: 700px;
+    height: 300px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    padding-top: 80px;
+    background-color: #fff!important;
+    box-shadow: 0 0 20px 3px #909090;
+}
+.box img:nth-child(1){
+    position: absolute;
+    top: -25%;
+    right: 40%;
+    border: 8px solid #ccc;
+    border-radius: 50%;
+}
+.box img:nth-child(2){
+    position: absolute;
+    top: -30px;
+    left: 50px;
+}
+.box img:nth-child(3){
+    position: absolute;
+    bottom: -30px;
+    right: 50px;
+}
+h3{
+    font-size: 25px;
+    color: rgb(6, 195, 116)!important;
+}
+p{
+    font-size: 13px;
+}
+.carousel-control-prev{
+    background-color: gray!important;
+    width: 50px!important;
+    height: 50px;
+    position: absolute;
+    top: 47%!important;
+    border-radius: 50%;
+    left: 25%!important;
+}
+.carousel-control-next{
+    background-color: gray!important;
+    width: 50px!important;
+    height: 50px;
+    position: absolute;
+    top: 47%!important;
+    border-radius: 50%;
+    right: 25%!important;
+}
+.carousel-indicators button{
+    width: 15px!important;
+    height: 15px!important;
+    background-color: green!important;
+    border-radius: 50%!important;
+    margin-top: -150px;
+}
+.carousel{
+    margin-top: -150px;
+}
+.back{
+    width: 900px;
+    height: 200px;
+    background-color: #fff;
+    margin: 140px auto;
+    border: 1px solid #fff;
+}

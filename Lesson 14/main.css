@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.wrapper .left .card3 .Footer,
+.wrapper .right .card3 .Footer, .wrapper .left .card2 .right .rightFooter,
+.wrapper .right .card2 .right .rightFooter, .wrapper .left .card1 .cardFooter,
+.wrapper .right .card1 .cardFooter {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  border-top: 3px solid #ccc;
+}
+.wrapper .left .card3 .Footer a,
+.wrapper .right .card3 .Footer a, .wrapper .left .card2 .right .rightFooter a,
+.wrapper .right .card2 .right .rightFooter a, .wrapper .left .card1 .cardFooter a,
+.wrapper .right .card1 .cardFooter a {
+  color: rgb(80, 213, 213);
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 20px auto;
+  display: flex;
+}
+.wrapper .left,
+.wrapper .right {
+  width: 50%;
+  padding: 1rem;
+}
+.wrapper .left .card1,
+.wrapper .right .card1 {
+  width: 100%;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.wrapper .left .card1 .cardHeader,
+.wrapper .right .card1 .cardHeader {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: green;
+  color: white;
+  height: 200px;
+  padding-top: 150px;
+  padding-left: 1rem;
+}
+.wrapper .left .card1 .cardBody,
+.wrapper .right .card1 .cardBody {
+  padding: 2rem 1rem;
+}
+.wrapper .left .card2,
+.wrapper .right .card2 {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 1rem;
+  display: flex;
+}
+.wrapper .left .card2 .left,
+.wrapper .right .card2 .left {
+  width: 25%;
+  background-color: #ccc;
+  height: 200px;
+  display: flex;
+}
+.wrapper .left .card2 .right,
+.wrapper .right .card2 .right {
+  background-color: white;
+  width: 75%;
+  height: 200px;
+}
+.wrapper .left .card2 .right .rightHeader,
+.wrapper .right .card2 .right .rightHeader {
+  height: 120px;
+}
+.wrapper .left .card2 .right .rightHeader p,
+.wrapper .right .card2 .right .rightHeader p {
+  color: grey;
+}
+.wrapper .left .card2 .right .rightFooter,
+.wrapper .right .card2 .right .rightFooter {
+  width: 110%;
+  margin-left: -6%;
+}
+.wrapper .left .card3,
+.wrapper .right .card3 {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.wrapper .left .card3 .Header,
+.wrapper .right .card3 .Header {
+  height: 200px;
+}
+.wrapper .left .card3 .Header h2,
+.wrapper .right .card3 .Header h2 {
+  color: rgb(80, 213, 213);
+  margin-bottom: 2rem;
+}
+.wrapper .left .card3 .Header p,
+.wrapper .right .card3 .Header p {
+  font-size: 17px;
+  padding-right: 220px;
+}
+.wrapper .left .card3 .Footer,
+.wrapper .right .card3 .Footer {
+  width: 106%;
+  margin-left: -3%;
+}
+.wrapper .left .card4,
+.wrapper .right .card4 {
+  width: 100%;
+}
+.wrapper .left .card4 .header,
+.wrapper .right .card4 .header {
+  height: 200px;
+  color: white;
+  padding-top: 160px;
+  padding-left: 1rem;
+  background-color: rgb(0, 92, 157);
+}
+.wrapper .left .card4 .footer,
+.wrapper .right .card4 .footer {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #fff;
+}
+.wrapper .left .card4 .footer i,
+.wrapper .right .card4 .footer i {
+  font-size: 25px;
+  margin-left: 1.5rem;
+  color: gray;
+}
+.wrapper .left .best,
+.wrapper .right .best {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.wrapper .left .best .card5,
+.wrapper .right .best .card5 {
+  width: 49%;
+  margin-top: 1rem;
+}
+.wrapper .left .best .card5 .header,
+.wrapper .right .best .card5 .header {
+  height: 200px;
+  background-color: blue;
+  color: white;
+  padding-top: 160px;
+  padding-left: 1rem;
+}
+.wrapper .left .best .card5 .footer,
+.wrapper .right .best .card5 .footer {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+}
+.wrapper .left .best .card5 .footer i,
+.wrapper .right .best .card5 .footer i {
+  font-size: 25px;
+  color: gray;
+}
+.wrapper .left .best .card6,
+.wrapper .right .best .card6 {
+  width: 49%;
+  margin-top: 1rem;
+}
+.wrapper .left .best .card6 .header,
+.wrapper .right .best .card6 .header {
+  height: 200px;
+  background-color: green;
+  color: white;
+  padding-top: 160px;
+  padding-left: 1rem;
+}
+.wrapper .left .best .card6 .footer,
+.wrapper .right .best .card6 .footer {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+}
+.wrapper .left .best .card6 .footer i,
+.wrapper .right .best .card6 .footer i {
+  font-size: 25px;
+  color: gray;
+}
+.wrapper .left .card7,
+.wrapper .right .card7 {
+  width: 49%;
+}
+.wrapper .left .card7 .header,
+.wrapper .right .card7 .header {
+  height: 205px;
+  color: white;
+  padding-top: 120px;
+  padding-left: 1rem;
+  padding-right: 50px;
+  border-bottom: 2px solid #ccc;
+  background-color: blue;
+}
+.wrapper .left .card7 .body,
+.wrapper .right .card7 .body {
+  padding: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: blue;
+}
+.wrapper .left .card7 .body i,
+.wrapper .right .card7 .body i {
+  color: white;
+  font-size: 25px;
+}
+.wrapper .left .card7 .footer,
+.wrapper .right .card7 .footer {
+  margin-top: 0.3rem;
+  background-color: gray;
+  padding: 1rem;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  font-size: 22px;
+}
+.wrapper .left .card8,
+.wrapper .right .card8 {
+  width: 49%;
+  border: 3px solid #909090;
+  background-color: rgba(0, 0, 0, 0.437);
+}
+.wrapper .left .card8 .header,
+.wrapper .right .card8 .header {
+  height: 250px;
+  color: white;
+  padding: 1rem;
+  border-bottom: 3px solid #fff;
+}
+.wrapper .left .card8 .header P,
+.wrapper .right .card8 .header P {
+  margin: 1rem 0;
+}
+.wrapper .left .card8 .header .mb1rem,
+.wrapper .right .card8 .header .mb1rem {
+  margin-bottom: 1rem;
+}
+.wrapper .left .card8 .header input,
+.wrapper .right .card8 .header input {
+  transform: scale(2);
+}
+.wrapper .left .card8 .header label,
+.wrapper .right .card8 .header label {
+  margin-left: 1rem;
+}
+.wrapper .left .card8 .footer,
+.wrapper .right .card8 .footer {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.wrapper .left .card8 .footer i,
+.wrapper .right .card8 .footer i {
+  font-size: 25px;
+}/*# sourceMappingURL=main.css.map */
